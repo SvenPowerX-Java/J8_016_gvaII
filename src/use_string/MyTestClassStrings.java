@@ -14,5 +14,11 @@ public class MyTestClassStrings {
 		char chars1[] = {'a','b','c','d', 'e', 'f'};
 		String s1 = new String(chars1, 2, 3);
 		System.out.println("s1 = " + s1);
+		
+		
+		
+		System.out.println("s1[0] = " + s1.charAt(0));
+		System.out.println("s1[1] = " + s1.charAt(1));
+		System.out.println("s1[2] = " + s1.charAt(2));
 	}
 }

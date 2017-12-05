@@ -8,5 +8,6 @@ public class GetCharDemo {
 		char buf[] = new char[end - start];
 		s.getChars(start, end, buf, 0);
 		System.out.println(buf);
+		
 	}
 }

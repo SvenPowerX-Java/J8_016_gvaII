@@ -8,5 +8,17 @@ public class ConCat {
 				"этого удаётся избежать.";
 		
 		System.out.println("longStr = " + longStr);
+		
+		//сцепление с другими типами
+		int age = 9;
+		String s = "Ему " + age + " лет.";
+		System.out.println(s);
+		
+		String sInt = "четыре: " + 2 + 2;
+		System.out.println("sInt = " + sInt);
+		
+		sInt = "четыре: " + (2 + 2);
+		System.out.println("sInt = " + sInt);
+		
 	}
 }
